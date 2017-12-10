@@ -293,6 +293,22 @@
   
 
   
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "http://yoursite.com/2017/12/09/第一篇内容/",
+  owner: 'shangyanjing',
+  repo: 'shangyanjing.github.in',
+  oauth: {
+    client_id: '6a030004ddb3b4df093c',
+    client_secret: '888f083f1eb839783947630e6ffa87240957aab8',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
+  
 
 
           </div>
